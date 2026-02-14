@@ -1,0 +1,20 @@
+[package]
+name = "pdf-text-extract-mcp"
+version = "0.1.0"
+edition = "2021"
+authors = ["Yoseph Bernandus"]
+description = "MCP server for PDF text extraction"
+license = "MIT"
+
+[[bin]]
+name = "pdf-mcp"
+path = "src/main.rs"
+
+[dependencies]
+pdf-text-extract = "0.1"
+rmcp = { version = "0.15", features = ["server", "transport-io"] }
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }
+schemars = "1.0"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
