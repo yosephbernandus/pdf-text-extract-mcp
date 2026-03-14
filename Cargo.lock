@@ -441,7 +441,7 @@ dependencies = [
 
 [[package]]
 name = "pdf-text-extract-mcp"
-version = "0.1.0"
+version = "0.1.2"
 dependencies = [
  "pdf-text-extract",
  "rmcp",

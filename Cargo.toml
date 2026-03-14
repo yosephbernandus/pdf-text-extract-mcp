@@ -1,6 +1,6 @@
 [package]
 name = "pdf-text-extract-mcp"
-version = "0.1.0"
+version = "0.1.2"
 edition = "2021"
 authors = ["Yoseph Bernandus"]
 description = "MCP server for PDF text extraction"
