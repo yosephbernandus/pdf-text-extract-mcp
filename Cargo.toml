@@ -11,7 +11,7 @@ name = "pdf-mcp"
 path = "src/main.rs"
 
 [dependencies]
-pdf-text-extract = "0.1"
+pdf-text-extract = "0.2"
 rmcp = { version = "0.15", features = ["server", "transport-io"] }
 tokio = { version = "1", features = ["full"] }
 serde = { version = "1", features = ["derive"] }

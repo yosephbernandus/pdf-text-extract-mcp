@@ -431,9 +431,9 @@ checksum = "b867cad97c0791bbd3aaa6472142568c6c9e8f71937e98379f584cfb0cf35bec"
 
 [[package]]
 name = "pdf-text-extract"
-version = "0.1.1"
+version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "08a538de369ae91260159d7a646ad92f303251eb2005ebfb7c54f5aa3e1e0097"
+checksum = "de731afdb3995575931698d9fcd356013d543a3ede83203a72880a9b028593fd"
 dependencies = [
  "flate2",
  "thiserror",
